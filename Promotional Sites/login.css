@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3c2341, #55283e, #442e58);
+}
+.main-box{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container{
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(85, 55, 80, 0.274);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 80px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: width 1s, height 1s;
+}
+.login-container:hover{
+    height: 510px;
+    width: 460px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #eedede;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+.user-login{
+    width: 300px;
+}
+.pass{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+a {
+    color: #080404;
+    text-decoration: none;
+}
+
+label{
+    color: wheat;
+    font-weight: bold !important;
+    font-family: Arial
+}
+h3{
+    font-size: 30pt;
+    font-weight: 700;
+    width: 300px;
+    padding: 10px ;
+    text-align: center;
+    background: linear-gradient(to right, #783b9b, #be428f);
+    border-radius: 10px;
+    color: white;
+}
+input{
+    padding: 5px;
+    background: linear-gradient(to right, #f1dbd0, #f3d7a3);
+    color: rgb(0, 0, 0);
+    width: 250px;
+
+}
+.login{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.login button{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    transition: width 1.5s, height 1.5s;
+    cursor: pointer;
+}
+.login button:hover{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(159, 240, 240);
+}
+.cancel{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.cancel button{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    transition: width 1.5s, height 1.5s;
+    cursor: pointer;
+}
+.cancel button a{
+    display: flex;
+    justify-content: center;
+}
